@@ -1,0 +1,154 @@
+*{
+   outline: 1px solid orange
+}
+body {
+    width: 1280px;
+    margin: 0px auto;
+    padding: 10px 0px; 
+    background-color: #222222;
+    font-family: "Verdana", sans-serif;
+    font-size: 14px;
+    color: #d4d4d4;
+}
+header{
+    margin: 10px 0px;
+    margin-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #222;
+    
+}
+nav{ 
+    padding: 33px 80px 10px;
+    margin-bottom: 16px
+}
+header ul{ 
+    display: inline-block;
+}
+header li{
+    margin-right: 30px;
+    display: inline;
+}
+.icon{
+    float:right;
+}
+.first_screen{
+    
+    margin: 0px;
+    padding: 0px 80px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.block_heading{
+    width: 245px;
+    margin: 0px;
+    padding: 70px 70px 70px 125px;
+    text-align: center;
+}
+.block_img{
+    width: 440px;}
+    
+.advantages{
+    margin: 0px;
+    padding: 40px 160px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.advantage-icon{
+    margin: 0px;
+    padding: 45px 0px;
+    width: 180px;
+}
+.content{
+    display: flex;
+    padding: 60px 160px 50px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    font-family: "Verdana",serif;
+    font-size: 14px;
+    color: #131313;
+    justify-content: space-between;
+    
+}
+.text {
+    margin-bottom: 60px;
+    width: 440px;
+}
+h2{
+    font-family: "Courier New",serif;
+    font-size: 24px;
+}
+.footer{
+    display: flex;
+    width: 180px;
+    margin: 0px 80px;
+    padding: 90px 40px;
+    justify-content: space-around;
+}
+.recommendations_list li{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+.recommendations_list li::before {
+    display: block;
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    margin: 0px;
+    padding: 0px;
+    left: -25px;
+    top: 0px;
+    background-color:yellow;
+    border-radius: 50%;
+    
+}
+.recommendations_list {
+      list-style: none;
+}
+
+
+    
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin:60 80px;
+  
+}
+
+.submenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 700px;
+    line-height: 30px;
+    
+}
+
+footer div{
+    display: flex;
+    flex-wrap: nowrap;
+ justify-content: space-around;
+    
+}   
+footer li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    left: -25px;
+}
+footer ul{
+     margin: 0px;
+    padding: 0px;
+    width: 180;
+}
+.menu {
+    display: flex;
+    width: 180px;
+    flex-wrap: wrap;
+}
+
+
